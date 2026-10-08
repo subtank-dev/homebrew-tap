@@ -19,9 +19,9 @@
 cask "subtank" do
   arch arm: "arm64", intel: "x64"
 
-  version "0.0.8"
-  sha256 arm:   "e111de51d44703a3759d288d2de6058a817b45f2c7745af719a9305bc6520a83",
-         intel: "d0c0450024a6120f907a3359be37877aac7b70ea7fa4e96599f94cda616b2e5b"
+  version "0.0.9"
+  sha256 arm:   "87aad32a533f9ab51d79ee71f440d88445610bde985e3b83c6a64612361d8877",
+         intel: "2995d9e9c410a98c58fcc1b9de7c60e53bacc0e853fe46b9ca42d715b136e8a2"
 
   url "https://dl.subtank.dev/releases/subtank-#{version}-#{arch}.dmg"
   name "subtank"
